@@ -1,10 +1,10 @@
  require 'pry'
 def square_array(array)
-  x = [] 
+  x = []
   array.each do |num|
     binding.pry
    x << num ** 2 
-   
+
 
 end
  end
