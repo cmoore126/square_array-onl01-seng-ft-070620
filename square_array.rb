@@ -1,6 +1,6 @@
 def square_array(array)
 
-  array.each do |num|
+  array.map do |num|
   puts num **2
 end
  end
