@@ -1,6 +1,6 @@
 def square_array(array)
 
-  array.collect |num|
+  array.collect do |num|
   puts num **2
 end
  end
